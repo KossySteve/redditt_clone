@@ -43,12 +43,12 @@ Stickler
 ## Authors
 👤 **Ezeokwelume Stephen Kosisochukwu**
 
-- Github: [@KossySteve]https://github.com/KossySteve)
+- Github: [KossySteve](https://github.com/KossySteve)
 - Linkedin: [Kossy Steve](https://www.linkedin.com/in/steve-ez-b090ba198/)
 
 👤 **Peris Ndanu**
 
-- Github: [@mimipeshy](https://github.com/mimipeshy)
+- Github: [mimipeshy](https://github.com/mimipeshy)
 - Linkedin: [Peris Ndanu](https://www.linkedin.com/in/peris-ndanu-405083193/)
 
 ## 🤝 Contributing
