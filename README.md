@@ -12,21 +12,30 @@ Active Records
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
 
+```
 Clone this repository into your local machine.
+https://github.com/KossySteve/redditt_clone.git
+cd redditt_clone
+git checkout development
 
-Run the main file by typing this in your command line:
+```
 
-  $ rails console
-  $ u = User.new(username: 'Admin', email: 'admin@admin.com', password: '123456') #This is to create a User
-  $ p = Post.new(title:'new title', body: 'New body', user_id: 1) #This is to create a post by a certain user
-  $ c = Comment.new(body: 'New body', user_id: 1,  post_id: 1) #This is to create a comment by the user
-  $ u.save
-  $ p.save
-  $ c.save
-  $ u #To check the user content
-  $ p #To check the post content
-  $ c #To check the comment content
+## Usage
+Open a new terminal and type
 
+```python
+ $ rails console
+
+ $ u = User.new(username: 'Admin', email: 'admin@admin.com', password: '123456') #This is to create a User
+ $ p = Post.new(title:'new title', body: 'New body', user_id: 1) #This is to create a post by a certain user
+ $ c = Comment.new(title: 'New comment',body: 'New body', user_id: 1,  post_id: 1) #This is to create a comment by the user
+ $ u.save
+ $ p.save
+ $ c.save
+ $ u #To check the user content
+ $ p #To check the post content
+ $ c #To check the comment content
+```
 ## Validators
 Rubocop
 Stickler
